@@ -11,7 +11,7 @@ import Parcours from './pages/Parcours';
 const PageContainer = styled.div`
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1.5rem; // pour respirer sur petits écrans
+  padding: 0 1.5rem;
 `;
 
 function App() {
@@ -23,7 +23,6 @@ function App() {
           <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/parcours" element={<Parcours />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
         </PageContainer>

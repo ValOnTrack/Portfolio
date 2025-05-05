@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import logo from '../assets/logo.png';
+import logo from '../assets/Images/logo.png';
 import { theme } from '../styles/GlobalStyle';
 
 // Animation du curseur clignotant
@@ -29,40 +29,70 @@ const ContentWrapper = styled.div`
   align-items: center;
   margin-top: 3rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     flex-direction: column-reverse;
     text-align: center;
   }
 `;
 
 const Logo = styled.img`
-  margin-left: -100px;
+  
   width: 600px;
   height: auto;
+
+  @media (max-width: 1024px) {
+    width: 450px;
+  }
+
+  @media (max-width: 900px) {
+    width: 300px;
+    margin-left: 0;
+  }
+
+  @media (max-width: 500px) {
+    width: 220px;
+  }
 `;
 
 const TextBlock = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
+
+  @media (max-width: 1200px) {
+    margin: 1rem 0 0 0;
+    align-items: center;
+  }
 `;
 
 const DynamicText = styled.h1`
   font-size: 3rem;
   font-weight: 700;
   color: ${theme.colors.secondary};
+
+  @media (max-width: 1200px) {
+    font-size: 2.2rem;
+  }
 `;
 
 const StaticText = styled.h1`
   font-size: 4rem;
   font-weight: 700;
   color: ${theme.colors.textPrimary};
+
+  @media (max-width: 1200px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const Highlight = styled.span`
   color: ${theme.colors.primary};
   font-size: 4rem;
-  font-weight: 700; 
+  font-weight: 700;
+
+  @media (max-width: 1200px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const ArrowContainer = styled.div`
@@ -76,10 +106,15 @@ const ArrowContainer = styled.div`
   &:hover {
     opacity: 0.8;
   }
+
+  @media (max-width: 1200px) {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
 `;
 
 export default function DisplayedSection() {
-  const texts = ["Bonjour", "01101000 01100101 01111001", "Hello", "コニチワ"];
+  const texts = ["Bonjour !", "01101000 01100101 01111001 !", "Hello ! ", "コニチワ ! "];
   const [displayedText, setDisplayedText] = useState('');
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
