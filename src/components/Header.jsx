@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect} from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 import NavButton from '../components/NavButton';
 import { FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
 import Monograme from '../assets/Images/monograme.png';
+import Modal from './Modal';
+import ContactOnglets from './ContactOnglets';
+import ConfirmationMessage from './ConfirmationMessage';
+
 
 const HeaderNav = styled.header`
   padding: 1.5rem;
@@ -102,46 +106,85 @@ const MobileMenu = styled.div`
     text-align: center;
   }
 `;
-
 export default function Header() {
+
+
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false); // confirmation
+
+  useEffect(() => {
+    if (isConfirmModalOpen) {
+      const timer = setTimeout(() => setIsConfirmModalOpen(false), 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [isConfirmModalOpen]);
 
   return (
-    <HeaderNav>
-      <LogoWrapper>
-        <img src={Monograme} alt="Logo monogramme" style={{ height: '2rem' }} />
-        <Logo>Valentin DUBOSC</Logo>
-      </LogoWrapper>
+    <>
+     {isModalOpen && (
+  <Modal onClose={() => setIsModalOpen(false)}>
+    <ContactOnglets
+      onSuccess={() => {
+        setIsModalOpen(false);
+        setIsConfirmModalOpen(true);
+      }}
+    />
+  </Modal>
+)}
 
-      <Nav>
-        <StyledLink to="/">Profil</StyledLink>
-        <StyledLink to="/portfolio">Portfolio</StyledLink>
-        <NavButton to="/portfolio">Rencontrons nous</NavButton>
-        <LinkedInLink
-          href="https://www.linkedin.com/in/valentin-dubosc/"
-          target="_blank"
-          aria-label="LinkedIn profile"
-        >
-          <FaLinkedin />
-        </LinkedInLink>
-      </Nav>
+{isConfirmModalOpen && (
+  <Modal onClose={() => setIsConfirmModalOpen(false)}>
+    <ConfirmationMessage />
+  </Modal>
+)}
+      <HeaderNav>
+        <LogoWrapper>
+          <img src={Monograme} alt="Logo monogramme" style={{ height: '2rem' }} />
+          <Logo>Valentin DUBOSC</Logo>
+        </LogoWrapper>
 
-      <Burger onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
-      </Burger>
+        <Nav>
+          <StyledLink to="/">Profil</StyledLink>
+          <StyledLink to="/portfolio">Portfolio</StyledLink>
+          <NavButton as="button" onClick={openModal}>
+            Rencontrons nous
+          </NavButton>
+          <LinkedInLink
+            href="https://www.linkedin.com/in/valentin-dubosc/"
+            target="_blank"
+            aria-label="LinkedIn profile"
+          >
+            <FaLinkedin />
+          </LinkedInLink>
+        </Nav>
 
-      <MobileMenu open={menuOpen}>
-        <StyledLink to="/" onClick={() => setMenuOpen(false)}>Profil</StyledLink>
-        <StyledLink to="/portfolio" onClick={() => setMenuOpen(false)}>Portfolio</StyledLink>
-        <NavButton to="/portfolio" onClick={() => setMenuOpen(false)}>Rencontrons nous</NavButton>
-        <LinkedInLink
-          href="https://www.linkedin.com/in/valentin-dubosc/"
-          target="_blank"
-          aria-label="LinkedIn profile"
-        >
-          <FaLinkedin />
-        </LinkedInLink>
-      </MobileMenu>
-    </HeaderNav>
+        <Burger onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </Burger>
+
+        <MobileMenu open={menuOpen}>
+          <StyledLink to="/" onClick={() => setMenuOpen(false)}>Profil</StyledLink>
+          <StyledLink to="/portfolio" onClick={() => setMenuOpen(false)}>Portfolio</StyledLink>
+          <NavButton as="button" onClick={() => {
+            setMenuOpen(false);
+            openModal();
+          }}>
+            Rencontrons nous
+          </NavButton>
+          <LinkedInLink
+            href="https://www.linkedin.com/in/valentin-dubosc/"
+            target="_blank"
+            aria-label="LinkedIn profile"
+          >
+            <FaLinkedin />
+          </LinkedInLink>
+        </MobileMenu>
+      </HeaderNav>
+    </>
   );
 }

@@ -10,6 +10,7 @@ const NavButton = styled(Link)`
   border-radius: ${({ theme }) => theme.borderRadius.large};
   text-decoration: none;
   transition: background-color 0.3s ease;
+  border: none;
 
   &:hover {
     background-color: ${({ theme }) => theme.colors.secondary};
