@@ -154,8 +154,7 @@ export default function Header() {
             Rencontrons nous
           </NavButton>
           <IconeLink
-            href="https://github.com/ValOnTrack"  // Remplace par ton vrai lien
-            target="_blank"
+            href="https://github.com/ValOnTrack" 
             aria-label="GitHub profile"
           >
     <FaGithub />
@@ -183,7 +182,7 @@ export default function Header() {
             Rencontrons nous
           </NavButton>
           <IconeLink
-            href="https://github.com/ValOnTrack"  // Remplace par ton vrai lien
+            href="https://github.com/ValOnTrack" 
             target="_blank"
             aria-label="GitHub profile"
           >

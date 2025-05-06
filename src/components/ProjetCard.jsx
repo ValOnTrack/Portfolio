@@ -9,10 +9,12 @@ const Card = styled(Link)`
   border-radius: 12px;
   cursor: pointer;
   transition: transform 0.2s ease;
+  height: 250px; 
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
     transition: transform 0.3s ease, filter 0.3s ease;
   }

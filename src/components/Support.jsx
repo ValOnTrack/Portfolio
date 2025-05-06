@@ -59,7 +59,7 @@ const CardsContainer = styled.div`
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 770px) {
     grid-template-columns: 1fr;
   }
 `;

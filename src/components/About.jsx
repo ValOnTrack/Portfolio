@@ -4,10 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHourglassHalf, faSyncAlt, faLaptopCode, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 
 const SectionWrapper = styled.section`
-  width: 100vw;
   background-color: ${({ theme }) => theme.colors.primary};
   margin-top: 4rem;
+
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 `;
+
 
 const Inner = styled.div`
   max-width: 1200px;
@@ -38,6 +45,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  margin-bottom: 5rem;
   gap: 3rem;
 
   @media (max-width: 900px) {
@@ -53,6 +61,10 @@ const Photo = styled.img`
   border-radius: 50%;
   object-fit: cover;
 
+  @media (min-width: 901px) {
+    margin-right: 4rem;
+  }
+
   @media (max-width: 900px) {
     width: 250px;
     height: 250px;
@@ -65,7 +77,7 @@ const Photo = styled.img`
 `;
 
 const Text = styled.div`
-  max-width: 550px;
+  max-width: 650px;
   text-align: left;
   font-size: 1.2rem;
   line-height: 1.7;
@@ -84,6 +96,8 @@ const Qualities = styled.div`
   margin: 4rem auto 2rem;
   max-width: 900px;
   gap: 8rem;
+  margin-bottom: 4rem;
+  
 
   @media (max-width: 900px) {
     gap: 1.5rem;
@@ -138,10 +152,11 @@ export default function AboutSection() {
           <Photo src="/assets/Images/Identité_Visuelle/photo-valentin.jpg" alt="Photo Valentin" />
           <Text>
             <p>
-              Actuellement, élève en bachelor Tech and Business, je suis aujourd’hui à la recherche d’une alternance afin de poursuivre mes études.
+            Passionné par la création d’interfaces modernes, accessibles et intuitives, je conçois des sites web responsives en m’appuyant sur des technologies comme HTML, CSS, JavaScript et React.
+
             </p>
             <p>
-              Mes diverses expériences professionnelles m’ont permis d’améliorer et de diversifier mes compétences et connaissances ainsi qu’une adaptabilité à toutes épreuves.
+            Mes diverses expériences professionnelles m’ont permis de renforcer mes compétences techniques et de développer une adaptabilité à toute épreuve.
             </p>
             <p>
               <strong>Le choix est entre vos mains !</strong>

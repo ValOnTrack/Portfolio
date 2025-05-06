@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faCalendarAlt, faTools, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faCalendarAlt, faTools, faLightbulb, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { FaGithub } from 'react-icons/fa';
 
 const Wrapper = styled.div`
   padding: 3rem 1rem;
@@ -30,6 +31,25 @@ const BackIcon = styled(FontAwesomeIcon)`
   font-size: 2.4rem;
   color: ${({ theme }) => theme.colors.primary};
 `;
+const IconLinks = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-left: 2rem;
+`;
+
+const IconeLink = styled.a`
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  color: ${({ theme }) => theme.colors.primary};
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.secondary};
+  }
+`;
+
 
 const Content = styled.div`
   display: flex;
@@ -104,12 +124,28 @@ export default function ProjetDetail({ projet }) {
   return (
     <Wrapper>
         <Header>
-            <BackIcon
-            icon={faArrowLeft}
-            onClick={() => navigate(-1)}
-            />
-            <h1>{projet.titre}</h1>
-        </Header>
+  <BackIcon icon={faArrowLeft} onClick={() => navigate(-1)} />
+  
+  <h1 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+  {projet.titre}
+  {(projet.Git || projet.Page) && (
+    <IconLinks>
+      {projet.Git && (
+        <IconeLink href={projet.Git} target="_blank" aria-label="Lien GitHub">
+          <FaGithub />
+        </IconeLink>
+      )}
+      {projet.Page && (
+        <IconeLink href={projet.Page} target="_blank" aria-label="Lien vers le site">
+          <FontAwesomeIcon icon={faGlobe} />
+        </IconeLink>
+      )}
+    </IconLinks>
+  )}
+</h1>
+
+</Header>
+
 
         <Content>
             <ImageWrapper>

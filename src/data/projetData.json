@@ -61,44 +61,45 @@
       "/assets/Images/Portfolio/Baux_de_ Provence/Reseaux-Sociaux-Mockup-2.webp",
       "/assets/Images/Portfolio/Baux_de_ Provence/PLV-sans-fond.webp",
       "/assets/Images/Portfolio/Baux_de_ Provence/tote-bag2.webp"
-
     ]
-    
   },
   {
-    "titre": "Sophie Bluel",
-    "image_en_avant": "/assets/Images/Portfolio/Sophie_Bluel/sophie-bluel.png",
+    "titre": "Booki",
+    "image_en_avant": "/assets/Images/Portfolio/Booki/Desktop.webp",
     "categorie": "Developpement web",
-    "slug": "Sophie Bluel",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "slug": "Booki",
+    "recapitulatif": ["2024", "HTML/CSS","Imaginer et créer un festival (identité, organisation, marketing…)"],
     "description": "Pour ce projet, nous avons créé le festival FAN ATTIC (« les fans du grenier ») qui se déroulera sur deux jours. Il y a la possibilité d’y participer en physique ou depuis chez soi, via le métaverse.\nCelui-ci aura pour thème : la pop culture des années 70 aux Etats-Unis. Les sujets abordés sont nombreux :Musique, Nourriture, Série, Jeux vidéo, Comic, Mode, Mode de vie.\nPour ce projet fictif, nous avons réalisé les étapes suivantes :\n– Etude de marché (analyse marché et concurrences indirectes et directes) \n– Mise en œuvre (activités, aménagement des espaces, marketing…) – Organisation (budget, juridique, ressources, gestion des risques…) \n– Evaluation (Key Performance Indicator)",
     "competences": ["Planifier et coordonner l'ensemble d'un évènement", "Communiquer efficacement avec l'ensemble des participants", "Analyser le marché et la concurrence"],
     "images": [
-      "/assets/Images/Portfolio/Projet_Festival/GOURDE.webp",
-      "/assets/Images/Portfolio/Projet_Festival/Instagram.webp",
-      "/assets/Images/Portfolio/Projet_Festival/isolated_opened_white_and_black_t_shirt.webp",
-      "/assets/Images/Portfolio/Projet_Festival/Plan-de-travail-5.webp"
-
-    ]
+      "/assets/Images/Portfolio/Booki/Desktop2.webp",
+      "/assets/Images/Portfolio/Booki/Mobile.webp",
+      "/assets/Images/Portfolio/Booki/Tabette.webp",
+      "/assets/Images/Portfolio/Booki/Desktop.webp"   
+    ],
+    "Git": "https://github.com/ValOnTrack/projet3.git",
+    "Page": "https://valontrack.github.io/projet3/"
     
   },
   {
     "titre": "Kasa",
-    "image_en_avant": "/assets/Images/Portfolio/Kasa/Capture d'écran 2025-03-02 202245.png",
+    "image_en_avant": "/assets/Images/Portfolio/Kasa/Desktop2.webp",
     "categorie": "Developpement web",
     "slug": "Kasa",
     "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
     "description": "Éditeur de code en ligne avec React",
     "competences": ["React", "Tailwind", "JS"],
     "images": [
-      "/images/code1.jpg",
-      "/images/code2.jpg"
-    ]
-    
-  },
-  {
-    "titre": "Nina carducci",
-    "image_en_avant": "/assets/Images/Portfolio/Nina_Carducci/nicholas-green.webp",
+      "/assets/Images/Portfolio/Kasa/Desktop.webp",
+      "/assets/Images/Portfolio/Kasa/Desktop2.webp",
+      "/assets/Images/Portfolio/Kasa/Mobile.webp",
+      "/assets/Images/Portfolio/Kasa/Mobile2.webp"
+    ],
+    "Git": "https://github.com/ValOnTrack/Kasa.git",
+    "Page": "http://kasa-five-henna.vercel.app/"
+  },{
+    "titre": "Ohmyfood",
+    "image_en_avant": "/assets/Images/Portfolio/Ohmyfood/desktop.webp",
     "categorie": "Developpement web",
     "slug": "Nina carducci",
     "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
@@ -106,9 +107,32 @@
     "competences": ["React", "Tailwind", "JS"],
     "hashtag": "#dev #react",
     "images": [
-      "/images/code1.jpg",
-      "/images/code2.jpg"
-    ]
+      "/assets/Images/Portfolio/Ohmyfood/Loader.webp",
+      "/assets/Images/Portfolio/Ohmyfood/MenuDesktop.webp",
+      "/assets/Images/Portfolio/Ohmyfood/MenuDesktop.webp",
+      "/assets/Images/Portfolio/Ohmyfood/Responsive.webp"
+    ],
+    "Git": "https://github.com/ValOnTrack/projetanimation.git",
+    "Page": "https://valontrack.github.io/projetanimation/"
+    
+  },
+  {
+    "titre": "Nina Carducci",
+    "image_en_avant": "/assets/Images/Portfolio/Nina_Carducci/nicholas-green.webp",
+    "categorie": "Developpement web",
+    "slug": "NinaCarducci",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "description": "Éditeur de code en ligne avec React",
+    "competences": ["React", "Tailwind", "JS"],
+    "hashtag": "#dev #react",
+    "images": [
+      "/assets/Images/Portfolio/Nina_Carducci/Rapport.webp",
+      "/assets/Images/Portfolio/Nina_Carducci/Site1.webp",
+      "/assets/Images/Portfolio/Nina_Carducci/Site2.webp",
+      "/assets/Images/Portfolio/Nina_Carducci/Site3.webp"
+    ],
+    "Git": "https://github.com/ValOnTrack/Nina-Carducci-Portfolio.git",
+    "Page": "https://valontrack.github.io/Nina-Carducci-Portfolio/"
     
   },
   {
