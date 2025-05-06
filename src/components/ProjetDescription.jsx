@@ -4,13 +4,13 @@ import styled from 'styled-components';
 const DescriptionWrapper = styled.div`
   max-width: 990px;
   padding: 0 1rem;
-  margin: 0 AUTO 
+  margin: 0 auto;
 `;
 
 const Title = styled.h3`
   font-size: 2rem;
   color: ${({ theme }) => theme.colors.primary};
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   text-align: left;
 
   @media (max-width: 768px) {
@@ -22,8 +22,8 @@ const Title = styled.h3`
 const Text = styled.p`
   font-size: 1rem;
   color: ${({ theme }) => theme.colors.textPrimary};
-  line-height: 1.8;
-  margin-bottom: 2rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
 
   @media (max-width: 768px) {
     font-size: 1rem;

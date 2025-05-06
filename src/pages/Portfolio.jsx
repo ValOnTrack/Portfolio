@@ -35,9 +35,7 @@ const FilterButton = styled.button`
   font-weight: 600;
 
   &:hover {
-    background: ${({ theme }) => theme.colors.textPrimary + '90'};
-    border: 2px solid ${({ theme }) => theme.colors.textPrimary + '90'};
-    color: white;
+    background: ${({ theme }) => theme.colors.textPrimary + '20'};
   }
 `;
 

@@ -135,7 +135,7 @@ export default function AboutSection() {
         <Title>Qui suis-je ?</Title>
 
         <Container>
-          <Photo src="/assets/Images/photo-valentin.jpg" alt="Photo Valentin" />
+          <Photo src="/assets/Images/Identité_Visuelle/photo-valentin.jpg" alt="Photo Valentin" />
           <Text>
             <p>
               Actuellement, élève en bachelor Tech and Business, je suis aujourd’hui à la recherche d’une alternance afin de poursuivre mes études.

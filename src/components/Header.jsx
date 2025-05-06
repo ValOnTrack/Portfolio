@@ -143,7 +143,7 @@ export default function Header() {
 )}
       <HeaderNav>
         <LogoWrapper>
-          <img src='/assets/Images/monograme.png' alt="Logo monogramme" style={{ height: '2rem' }} />
+          <img src='/assets/Images/Identité_Visuelle/monograme.png' alt="Logo monogramme" style={{ height: '2rem' }} />
           <Logo>Valentin DUBOSC</Logo>
         </LogoWrapper>
 

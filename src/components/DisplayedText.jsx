@@ -152,7 +152,7 @@ export default function DisplayedSection() {
   return (
     <>
       <ContentWrapper>
-        <Logo src='/assets/Images/logo.png' alt="Logo Valentin Dubosc" />
+        <Logo src='/assets/Images/Identité_Visuelle/logo.png' alt="Logo Valentin Dubosc" />
         <TextBlock>
           <DynamicText>
             {displayedText}<Cursor>|</Cursor>

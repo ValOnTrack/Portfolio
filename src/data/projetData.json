@@ -6,7 +6,7 @@
     "categorie": "Création",
     "slug": "Branding",
     "recapitulatif": ["2023", "Illustrator, Photoshop","Concevoir une nouvelle marque à partir de zéro"],
-    "description": "J’ai créé une identité de marque pour une nouvelle entreprise de confiseries. La marque s’appelle « Sweet Dreams » et elle se veut simple, élégante et authentique. Le logo est composé d’une typographie et d’un bonbon qui symbolisent la gourmandise et l’authenticité. Les couleurs utilisées sont dans des tons colorés, roses et violets ce qui évoquent le dynamisme et la tendresse. Le packaging des produits est simple et épuré, avec des éléments graphiques qui rappellent la nature.Ce projet a été un défi passionnant, car il m’a permis d’imaginer et de combiner mes compétences en design avec les outils de la suite adobe. Un motion design est également disponible n’hésitez pas à me contacter si vous souhaitez le visualiser.",
+    "description": "J’ai créé une identité de marque pour une nouvelle entreprise de confiseries. La marque s’appelle « Sweet Dreams » et elle se veut simple, élégante et authentique. Le logo est composé d’une typographie et d’un bonbon qui symbolisent la gourmandise et l’authenticité.\nLes couleurs utilisées sont dans des tons colorés, roses et violets ce qui évoquent le dynamisme et la tendresse. Le packaging des produits est simple et épuré, avec des éléments graphiques qui rappellent la nature.\nCe projet a été un défi passionnant, car il m’a permis d’imaginer et de combiner mes compétences en design avec les outils de la suite adobe. Un motion design est également disponible n’hésitez pas à me contacter si vous souhaitez le visualiser.",
     "competences": ["Design graphique", "Créer uen chartre graphique"],
     "images": [
       "/assets/Images/Portfolio/Branding/barre-halloween-sans-fond.webp",
@@ -18,7 +18,7 @@
   },
   {
     "titre": "Projet festival",
-    "image_en_avant": "assets/Images/Portfolio/Projet_Festival/Canvas-Tote-Bag-MockUp2-e1706345334287-1024x597.webp",
+    "image_en_avant": "assets/Images/Portfolio/Projet_Festival/Tote-Bag.webp",
     "categorie": "Marketing",
     "slug": "Porjet festival",
     "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
@@ -35,15 +35,16 @@
   },
   {
     "titre": "Rocksac",
-    "image_en_avant": "/assets/Images/Portfolio/Direction_artistique/Rocksac-logo-1024x591.webp",
+    "image_en_avant": "/assets/Images/Portfolio/Rocksac/Rocksac-logo.webp",
     "categorie": "Création",
     "slug": "Rocksac",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Éditeur de code en ligne avec React",
+    "recapitulatif": ["2023", "Suite adobe","Créer une identité en respectant le brief client"],
+    "description": "ROCKSAC est une jeune marque française de sacs à dos destinés à la randonnée et aux déplacements quotidiens. Les deux frères fondateurs souhaitent développer une identité visuelle qui reflète leur engagement vers une démarche propre et vertueuse, tout en restant qualitative et en mettant en valeur leur savoir-faire.\nLe client demande la conception et la réalisation d’un logotype, d’une charte graphique et d’un système design complet, déclinables sur tous les supports de communication print et web.",
     "competences": ["React", "Tailwind", "JS"],
     "images": [
-      "/images/code1.jpg",
-      "/images/code2.jpg"
+      "/assets/Images/Portfolio/Rocksac/mockup-affiche-1.webp",
+      "/assets/Images/Portfolio/Rocksac/mockup-digital.webp",
+      "/assets/Images/Portfolio/Rocksac/Rocksac-dossier-scaled.webp"
     ]
     
   },
@@ -52,13 +53,15 @@
     "image_en_avant": "/assets/Images/Portfolio/Baux_de_ Provence/kit-pour-flyer-1024x717.webp",
     "categorie": "Marketing",
     "slug": "Baux de provence",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Éditeur de code en ligne avec React",
-    "competences": ["React", "Tailwind", "JS"],
-    "hashtag": "#dev #react",
+    "recapitulatif": ["2023", "Suite adobe, web","Redéfinir et réorienter la communication de l’AOP des Baux de Provence"],
+    "description": "Pour ce projet, nous avons travaillé pour l’AOP des Beaux de Provence. L’AOP nous a sollicités pour retravailler son approche marketing et sa communication.\nNos missions et notre travail ont porté sur les points suivants :\n– Analyse de l’existant et de la concurrence indirecte et directe\n– Définition de la stratégie marketing et des cibles\n– Elaborer une stratégie de communication adaptée\nNous avons également réalisé des visuels pour divers éléments (goodies, PLV, réseaux sociaux…) à l’aide de mock-ups.",
+    "competences": ["Analyser une stratégie de communication", "Définir une stratégie de communication adaptée", "Créer des supports de communication"],
     "images": [
-      "/images/code1.jpg",
-      "/images/code2.jpg"
+      "/assets/Images/Portfolio/Baux_de_ Provence/Affiche-sans-fond.webp",
+      "/assets/Images/Portfolio/Baux_de_ Provence/Reseaux-Sociaux-Mockup-2.webp",
+      "/assets/Images/Portfolio/Baux_de_ Provence/PLV-sans-fond.webp",
+      "/assets/Images/Portfolio/Baux_de_ Provence/tote-bag2.webp"
+
     ]
     
   },
@@ -114,13 +117,13 @@
     "categorie": "Création",
     "slug": "Edition éditoriale",
     "recapitulatif": ["2023", "Illustrator, Photoshop","Concevoir une nouvelle marque à partir de zéro"],
-    "description": "J’ai créé une identité de marque pour une nouvelle entreprise de confiseries. La marque s’appelle « Sweet Dreams » et elle se veut simple, élégante et authentique. Le logo est composé d’une typographie et d’un bonbon qui symbolisent la gourmandise et l’authenticité. Les couleurs utilisées sont dans des tons colorés, roses et violets ce qui évoquent le dynamisme et la tendresse. Le packaging des produits est simple et épuré, avec des éléments graphiques qui rappellent la nature.Ce projet a été un défi passionnant, car il m’a permis d’imaginer et de combiner mes compétences en design avec les outils de la suite adobe. Un motion design est également disponible n’hésitez pas à me contacter si vous souhaitez le visualiser.",
-    "competences": ["Design graphique", "Créer uen chartre graphique"],
+    "description": "Afin de m’entraîner à la conception éditoriale web, j’ai réalisé un article sur l’une des pionnières de la typographie numérique, Madame Zuzana Licko.\nRecherche et inspiration :\n– Renseignement sur le travail et les réalisations de Zuzana Licko\n– Création d’un moodboard d’inspiration pour la conception de l’article\n\nRédaction et mise en forme :\n– Utilisation d’outils adaptés : grilles de rédaction, gouttières, utilisation de blancs…\n– Création d’un article visuellement esthétique reprenant le style de l’artiste\n– Hiérarchisation des informations\n– Utilisation d’un ton adapté",
+    "competences": ["Capacité à synthétiser et à organiser l'information", "Créativité","Design typographique"],
     "images": [
-      "/assets/Images/Portfolio/Branding/barre-halloween-sans-fond.webp",
-      "/assets/Images/Portfolio/Branding/Mock-up-barbe-a-papa-sans-fond.webp",
-      "/assets/Images/Portfolio/Branding/Packaging-cocinelle-boite-sans-fond.webp",
-      "/assets/Images/Portfolio/Branding/Magazine-Mockup-sans-fond.webp"
+      "/assets/Images/Portfolio/Edition_Editoriale/Conception-article-1-scaled.webp",
+      "/assets/Images/Portfolio/Edition_Editoriale/Conception-article-2-scaled.webp",
+      "/assets/Images/Portfolio/Edition_Editoriale/moodboard-1-scaled.webp",
+      "/assets/Images/Portfolio/Edition_Editoriale/Moodboard-creation-article2-scaled.webp"
     ]
     
   },
@@ -129,14 +132,13 @@
     "image_en_avant": "/assets/Images/Portfolio/WaterGuardian/T-shirt-mockup-e1706343622716-1024x676.webp",
     "categorie": "Marketing",
     "slug": "Water Guardian",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Pour ce projet, nous avons créé le festival FAN ATTIC (« les fans du grenier ») qui se déroulera sur deux jours. Il y a la possibilité d’y participer en physique ou depuis chez soi, via le métaverse.\nCelui-ci aura pour thème : la pop culture des années 70 aux Etats-Unis. Les sujets abordés sont nombreux :Musique, Nourriture, Série, Jeux vidéo, Comic, Mode, Mode de vie.\nPour ce projet fictif, nous avons réalisé les étapes suivantes :\n– Etude de marché (analyse marché et concurrences indirectes et directes) \n– Mise en œuvre (activités, aménagement des espaces, marketing…) – Organisation (budget, juridique, ressources, gestion des risques…) \n– Evaluation (Key Performance Indicator)",
-    "competences": ["Planifier et coordonner l'ensemble d'un évènement", "Communiquer efficacement avec l'ensemble des participants", "Analyser le marché et la concurrence"],
+    "recapitulatif": ["2024", "Suite adobe, figma","Création d’une solution digitale pour apprendre à nager"],
+    "description": "Water Guardian est une application digitale qui prépare les enfants à l’apprentissage de la natation de manière ludique et pédagogique.\nGrâce à des exercices, des ateliers et des vidéos interactives, les enfants se familiarisent avec l’eau et progressent à leur rythme, accompagnés de leurs parents, grands-parents ou d’un adulte de confiance.\nDeux interfaces distinctes répondent aux besoins spécifiques de chaque utilisateur :\nInterface parents :\n– Conseils d’experts (maître-nageur, psychomotricienne, psychologue…)\n– Explications pédagogiques\n– Forum d’échanges entre parents\n– Accès aux exercices et ateliers à réaliser avec l’enfant\nInterface enfant :\n– Suivi du parcours d’apprentissage\n– Système de récompenses\n– Vidéos explicatives interactives pour chaque mission à réaliser\nJ’ai réalisé l’ensemble de la création de la marque Water Guardian (logo, charte graphique, stratégie marketing, visuels…) ainsi que la maquette fonctionnelle (via Figma).En concevant Water Guardian, j’ai accordé une attention particulière à l’expérience utilisateur et à l’interface, afin de garantir une utilisation simple, intuitive et ludique pour les enfants et les parents.",
+    "competences": ["Veille stratégique", "Création d'une maquette interactive", "UX/UI"],
     "images": [
-      "/assets/Images/Portfolio/Projet_Festival/GOURDE.webp",
-      "/assets/Images/Portfolio/Projet_Festival/Instagram.webp",
-      "/assets/Images/Portfolio/Projet_Festival/isolated_opened_white_and_black_t_shirt.webp",
-      "/assets/Images/Portfolio/Projet_Festival/Plan-de-travail-5.webp"
+      "/assets/Images/Portfolio/WaterGuardian/Fichier-10logo-noir-baseline.webp",
+      "/assets/Images/Portfolio/WaterGuardian/Fichier-12logo-noir-mascotte.webp",
+      "/assets/Images/Portfolio/WaterGuardian/Mock-up-PC-1.webp"
 
     ]
     
