@@ -4,31 +4,16 @@ import AvisCard from './Avis';
 import NavButton from './NavButton';
 
 
-// AVATARS
-import marc from '../assets/Images/soutiens/marc.jfif';
-import margaux from '../assets/Images/soutiens/margaux.jfif';
-import vincent from '../assets/Images/soutiens/vincent.jfif';
-import florian from '../assets/Images/soutiens/florian.jfif';
-import manon from '../assets/Images/soutiens/manon.png';
-import lucas from '../assets/Images/soutiens/lucas.jfif';
-
-// AUDIOS
-import marcAudio from '../assets/audio/marc-audio.mp3';
-import margauxAudio from '../assets/audio/margaux-audio.mp3';
-import vincentAudio from '../assets/audio/vincent-audio.mp3';
-import florianAudio from '../assets/audio/florian-audio.mp3';
-import manonAudio from '../assets/audio/manon-audio.mp3';
-import lucasAudio from '../assets/audio/lucas-audio.mp3';
-
 // Data
 const Avis = [
-  { name: 'Marc', avatar: marc, audio: marcAudio },
-  { name: 'Margaux', avatar: margaux, audio: margauxAudio },
-  { name: 'Vincent', avatar: vincent, audio: vincentAudio },
-  { name: 'Florian', avatar: florian, audio: florianAudio },
-  { name: 'Manon', avatar: manon, audio: manonAudio },
-  { name: 'Lucas', avatar: lucas, audio: lucasAudio },
+  { name: 'Marc', avatar: '/assets/Images/soutiens/marc.jfif', audio: '/assets/audio/marc-audio.mp3' },
+  { name: 'Margaux', avatar: '/assets/Images/soutiens/margaux.jfif', audio: '/assets/audio/margaux-audio.mp3' },
+  { name: 'Vincent', avatar: '/assets/Images/soutiens/vincent.jfif', audio: '/assets/audio/vincent-audio.mp3' },
+  { name: 'Florian', avatar: '/assets/Images/soutiens/florian.jfif', audio: '/assets/audio/florian-audio.mp3' },
+  { name: 'Manon', avatar: '/assets/Images/soutiens/manon.png', audio: '/assets/audio/manon-audio.mp3' },
+  { name: 'Lucas', avatar: '/assets/Images/soutiens/lucas.jfif', audio: '/assets/audio/lucas-audio.mp3' },
 ];
+
 
 
 const Section = styled.section`
@@ -119,7 +104,7 @@ export default function Support() {
       </CardsContainer>
 
       <Avertissement>*Voix générées par IA</Avertissement>
-      <CustomNavButton to="/portoflio">En savoir plus</CustomNavButton>
+      <CustomNavButton to="/portfolio">En savoir plus</CustomNavButton>
     </Section>
   );
 }

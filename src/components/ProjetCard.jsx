@@ -34,7 +34,7 @@ const Title = styled.div`
   text-align: center;
 `;
 
-export default function ProjectCard({ title, image_en_avant, slug }) {
+export default function ProjetCard({ title, image_en_avant, slug }) {
   return (
     <Card to={`/realisation/${slug}`}>
       <img src={image_en_avant} alt={title} />

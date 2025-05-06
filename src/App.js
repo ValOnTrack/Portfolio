@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from './styles/GlobalStyle';
 import styled from 'styled-components';
 import Header from './components/Header';
-import Parcours from './pages/Parcours';
+import ProjetPage from './pages/Projet';
 
 
 const PageContainer = styled.div`
@@ -24,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/realisation/:slug" element={<ProjetPage />} /> 
         </Routes>
         </PageContainer>
         

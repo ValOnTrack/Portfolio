@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import logo from '../assets/Images/logo.png';
 import { theme } from '../styles/GlobalStyle';
 
 // Animation du curseur clignotant
@@ -153,7 +152,7 @@ export default function DisplayedSection() {
   return (
     <>
       <ContentWrapper>
-        <Logo src={logo} alt="Logo Valentin Dubosc" />
+        <Logo src='/assets/Images/logo.png' alt="Logo Valentin Dubosc" />
         <TextBlock>
           <DynamicText>
             {displayedText}<Cursor>|</Cursor>

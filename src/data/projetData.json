@@ -1,38 +1,58 @@
 [
 
   {
-    "title": "test",
-    "image_en_avant": "/images/code.jpg",
-    "categorie": "Informatique",
-    "slug": "test",
-    "description": "Éditeur de code en ligne avec React",
-    "competences": ["React", "Tailwind", "JS"],
-    "hashtag": "#dev #react",
-    "images": [
-      "/images/code1.jpg",
-      "/images/code2.jpg"
-    ]
-    
-  },
-  {
-    "title": "test",
-    "image_en_avant": "/images/code.jpg",
-    "categorie": "Informatique",
-    "slug": "test",
-    "description": "Éditeur de code en ligne avec React",
-    "competences": ["React", "Tailwind", "JS"],
-    "hashtag": "#dev #react",
-    "images": [
-      "/images/code1.jpg",
-      "/images/code2.jpg"
-    ]
-    
-  },
-  {
-    "title": "test",
-    "image_en_avant": "/images/code.jpg",
+    "titre": "Branding",
+    "image_en_avant": "/assets/Images/Portfolio/Branding/Mock-up-stand.webp",
     "categorie": "Création",
-    "slug": "test",
+    "slug": "Branding",
+    "recapitulatif": ["2023", "Illustrator, Photoshop","Concevoir une nouvelle marque à partir de zéro"],
+    "description": "J’ai créé une identité de marque pour une nouvelle entreprise de confiseries. La marque s’appelle « Sweet Dreams » et elle se veut simple, élégante et authentique. Le logo est composé d’une typographie et d’un bonbon qui symbolisent la gourmandise et l’authenticité. Les couleurs utilisées sont dans des tons colorés, roses et violets ce qui évoquent le dynamisme et la tendresse. Le packaging des produits est simple et épuré, avec des éléments graphiques qui rappellent la nature.Ce projet a été un défi passionnant, car il m’a permis d’imaginer et de combiner mes compétences en design avec les outils de la suite adobe. Un motion design est également disponible n’hésitez pas à me contacter si vous souhaitez le visualiser.",
+    "competences": ["Design graphique", "Créer uen chartre graphique"],
+    "images": [
+      "/assets/Images/Portfolio/Branding/barre-halloween-sans-fond.webp",
+      "/assets/Images/Portfolio/Branding/Mock-up-barbe-a-papa-sans-fond.webp",
+      "/assets/Images/Portfolio/Branding/Packaging-cocinelle-boite-sans-fond.webp",
+      "/assets/Images/Portfolio/Branding/Magazine-Mockup-sans-fond.webp"
+    ]
+    
+  },
+  {
+    "titre": "Projet festival",
+    "image_en_avant": "assets/Images/Portfolio/Projet_Festival/Canvas-Tote-Bag-MockUp2-e1706345334287-1024x597.webp",
+    "categorie": "Marketing",
+    "slug": "Porjet festival",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "description": "Pour ce projet, nous avons créé le festival FAN ATTIC (« les fans du grenier ») qui se déroulera sur deux jours. Il y a la possibilité d’y participer en physique ou depuis chez soi, via le métaverse.\nCelui-ci aura pour thème : la pop culture des années 70 aux Etats-Unis. Les sujets abordés sont nombreux :Musique, Nourriture, Série, Jeux vidéo, Comic, Mode, Mode de vie.\nPour ce projet fictif, nous avons réalisé les étapes suivantes :\n– Etude de marché (analyse marché et concurrences indirectes et directes) \n– Mise en œuvre (activités, aménagement des espaces, marketing…) – Organisation (budget, juridique, ressources, gestion des risques…) \n– Evaluation (Key Performance Indicator)",
+    "competences": ["Planifier et coordonner l'ensemble d'un évènement", "Communiquer efficacement avec l'ensemble des participants", "Analyser le marché et la concurrence"],
+    "images": [
+      "/assets/Images/Portfolio/Projet_Festival/GOURDE.webp",
+      "/assets/Images/Portfolio/Projet_Festival/Instagram.webp",
+      "/assets/Images/Portfolio/Projet_Festival/isolated_opened_white_and_black_t_shirt.webp",
+      "/assets/Images/Portfolio/Projet_Festival/Plan-de-travail-5.webp"
+
+    ]
+    
+  },
+  {
+    "titre": "Rocksac",
+    "image_en_avant": "/assets/Images/Portfolio/Direction_artistique/Rocksac-logo-1024x591.webp",
+    "categorie": "Création",
+    "slug": "Rocksac",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "description": "Éditeur de code en ligne avec React",
+    "competences": ["React", "Tailwind", "JS"],
+    "images": [
+      "/images/code1.jpg",
+      "/images/code2.jpg"
+    ]
+    
+  },
+  {
+    "titre": "Baux de provence",
+    "image_en_avant": "/assets/Images/Portfolio/Baux_de_ Provence/kit-pour-flyer-1024x717.webp",
+    "categorie": "Marketing",
+    "slug": "Baux de provence",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
     "description": "Éditeur de code en ligne avec React",
     "competences": ["React", "Tailwind", "JS"],
     "hashtag": "#dev #react",
@@ -43,16 +63,81 @@
     
   },
   {
-    "title": "test",
-    "image_en_avant": "/images/code.jpg",
-    "categorie": "Marketing",
-    "slug": "test",
+    "titre": "Sophie Bluel",
+    "image_en_avant": "/assets/Images/Portfolio/Sophie_Bluel/sophie-bluel.png",
+    "categorie": "Developpement web",
+    "slug": "Sophie Bluel",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "description": "Pour ce projet, nous avons créé le festival FAN ATTIC (« les fans du grenier ») qui se déroulera sur deux jours. Il y a la possibilité d’y participer en physique ou depuis chez soi, via le métaverse.\nCelui-ci aura pour thème : la pop culture des années 70 aux Etats-Unis. Les sujets abordés sont nombreux :Musique, Nourriture, Série, Jeux vidéo, Comic, Mode, Mode de vie.\nPour ce projet fictif, nous avons réalisé les étapes suivantes :\n– Etude de marché (analyse marché et concurrences indirectes et directes) \n– Mise en œuvre (activités, aménagement des espaces, marketing…) – Organisation (budget, juridique, ressources, gestion des risques…) \n– Evaluation (Key Performance Indicator)",
+    "competences": ["Planifier et coordonner l'ensemble d'un évènement", "Communiquer efficacement avec l'ensemble des participants", "Analyser le marché et la concurrence"],
+    "images": [
+      "/assets/Images/Portfolio/Projet_Festival/GOURDE.webp",
+      "/assets/Images/Portfolio/Projet_Festival/Instagram.webp",
+      "/assets/Images/Portfolio/Projet_Festival/isolated_opened_white_and_black_t_shirt.webp",
+      "/assets/Images/Portfolio/Projet_Festival/Plan-de-travail-5.webp"
+
+    ]
+    
+  },
+  {
+    "titre": "Kasa",
+    "image_en_avant": "/assets/Images/Portfolio/Kasa/Capture d'écran 2025-03-02 202245.png",
+    "categorie": "Developpement web",
+    "slug": "Kasa",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "description": "Éditeur de code en ligne avec React",
+    "competences": ["React", "Tailwind", "JS"],
+    "images": [
+      "/images/code1.jpg",
+      "/images/code2.jpg"
+    ]
+    
+  },
+  {
+    "titre": "Nina carducci",
+    "image_en_avant": "/assets/Images/Portfolio/Nina_Carducci/nicholas-green.webp",
+    "categorie": "Developpement web",
+    "slug": "Nina carducci",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
     "description": "Éditeur de code en ligne avec React",
     "competences": ["React", "Tailwind", "JS"],
     "hashtag": "#dev #react",
     "images": [
       "/images/code1.jpg",
       "/images/code2.jpg"
+    ]
+    
+  },
+  {
+    "titre": "Edition éditoriale",
+    "image_en_avant": "/assets/Images/Portfolio/Edition_Editoriale/Moodboard-creation-article2-1024x724.webp",
+    "categorie": "Création",
+    "slug": "Edition éditoriale",
+    "recapitulatif": ["2023", "Illustrator, Photoshop","Concevoir une nouvelle marque à partir de zéro"],
+    "description": "J’ai créé une identité de marque pour une nouvelle entreprise de confiseries. La marque s’appelle « Sweet Dreams » et elle se veut simple, élégante et authentique. Le logo est composé d’une typographie et d’un bonbon qui symbolisent la gourmandise et l’authenticité. Les couleurs utilisées sont dans des tons colorés, roses et violets ce qui évoquent le dynamisme et la tendresse. Le packaging des produits est simple et épuré, avec des éléments graphiques qui rappellent la nature.Ce projet a été un défi passionnant, car il m’a permis d’imaginer et de combiner mes compétences en design avec les outils de la suite adobe. Un motion design est également disponible n’hésitez pas à me contacter si vous souhaitez le visualiser.",
+    "competences": ["Design graphique", "Créer uen chartre graphique"],
+    "images": [
+      "/assets/Images/Portfolio/Branding/barre-halloween-sans-fond.webp",
+      "/assets/Images/Portfolio/Branding/Mock-up-barbe-a-papa-sans-fond.webp",
+      "/assets/Images/Portfolio/Branding/Packaging-cocinelle-boite-sans-fond.webp",
+      "/assets/Images/Portfolio/Branding/Magazine-Mockup-sans-fond.webp"
+    ]
+    
+  },
+  {
+    "titre": "Water Guardian",
+    "image_en_avant": "/assets/Images/Portfolio/WaterGuardian/T-shirt-mockup-e1706343622716-1024x676.webp",
+    "categorie": "Marketing",
+    "slug": "Water Guardian",
+    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
+    "description": "Pour ce projet, nous avons créé le festival FAN ATTIC (« les fans du grenier ») qui se déroulera sur deux jours. Il y a la possibilité d’y participer en physique ou depuis chez soi, via le métaverse.\nCelui-ci aura pour thème : la pop culture des années 70 aux Etats-Unis. Les sujets abordés sont nombreux :Musique, Nourriture, Série, Jeux vidéo, Comic, Mode, Mode de vie.\nPour ce projet fictif, nous avons réalisé les étapes suivantes :\n– Etude de marché (analyse marché et concurrences indirectes et directes) \n– Mise en œuvre (activités, aménagement des espaces, marketing…) – Organisation (budget, juridique, ressources, gestion des risques…) \n– Evaluation (Key Performance Indicator)",
+    "competences": ["Planifier et coordonner l'ensemble d'un évènement", "Communiquer efficacement avec l'ensemble des participants", "Analyser le marché et la concurrence"],
+    "images": [
+      "/assets/Images/Portfolio/Projet_Festival/GOURDE.webp",
+      "/assets/Images/Portfolio/Projet_Festival/Instagram.webp",
+      "/assets/Images/Portfolio/Projet_Festival/isolated_opened_white_and_black_t_shirt.webp",
+      "/assets/Images/Portfolio/Projet_Festival/Plan-de-travail-5.webp"
+
     ]
     
   }

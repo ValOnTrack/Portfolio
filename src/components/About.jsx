@@ -1,29 +1,25 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import styled from 'styled-components';
-import photo from '../assets/Images/photo-valentin.jpg';
-import { theme } from '../styles/GlobalStyle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHourglassHalf, faSyncAlt, faLaptopCode, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
-import ActionButton from '../components/ActionButton';
 
-
-const SectionWrapper = styled.div`
+const SectionWrapper = styled.section`
   width: 100vw;
-  background-color: ${theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.primary};
   margin-top: 4rem;
 `;
 
-const Section = styled.section`
-  max-width: 100%;
-  padding: 2rem;
+const Inner = styled.div`
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 1.5rem;
   text-align: center;
-  color: ${theme.colors.white};
+  color: ${({ theme }) => theme.colors.white};
 `;
 
 const Title = styled.h2`
   font-size: 3.5rem;
-  color: ${theme.colors.white};
+  color: ${({ theme }) => theme.colors.white};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,9 +81,9 @@ const Qualities = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 4rem auto 3rem;
+  margin: 4rem auto 2rem;
   max-width: 900px;
-  gap: 3rem;
+  gap: 8rem;
 
   @media (max-width: 900px) {
     gap: 1.5rem;
@@ -100,10 +96,10 @@ const Quality = styled.div`
   flex-direction: column;
   align-items: center;
   font-size: 1.3rem;
-  gap: 0.6rem;
+  gap: 1.6rem;
 
   svg {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
   }
 
   @media (max-width: 900px) {
@@ -115,21 +111,41 @@ const Quality = styled.div`
   }
 `;
 
+const Button = styled.button`
+  background-color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.white};
+  font-size: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: ${({ theme }) => theme.borderRadius.large};
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.white};
+    color : ${({ theme }) => theme.colors.secondary};
+  }
+`;
 
 export default function AboutSection() {
   return (
     <SectionWrapper id="about">
-      <Section>
-        <Title>
-           Qui suis-je ?
-        </Title>
+      <Inner>
+        <Title>Qui suis-je ?</Title>
 
         <Container>
-          <Photo src={photo} alt="Photo Valentin" />
+          <Photo src="/assets/Images/photo-valentin.jpg" alt="Photo Valentin" />
           <Text>
-            <p>Actuellement, élève en bachelor Tech and Business, je suis aujourd’hui à la recherche d’une alternance afin de poursuivre mes études.</p>
-            <p>Mes diverses expériences professionnelles m’ont permis d’améliorer et de diversifier mes compétences et connaissances ainsi qu’une adaptabilité à toutes épreuves.</p>
-            <p><strong>Le choix est entre vos mains !</strong></p>
+            <p>
+              Actuellement, élève en bachelor Tech and Business, je suis aujourd’hui à la recherche d’une alternance afin de poursuivre mes études.
+            </p>
+            <p>
+              Mes diverses expériences professionnelles m’ont permis d’améliorer et de diversifier mes compétences et connaissances ainsi qu’une adaptabilité à toutes épreuves.
+            </p>
+            <p>
+              <strong>Le choix est entre vos mains !</strong>
+            </p>
           </Text>
         </Container>
 
@@ -152,11 +168,10 @@ export default function AboutSection() {
           </Quality>
         </Qualities>
 
-        <a href="/CV_Valentin.pdf" target="_blank" rel="noopener noreferrer">
-            <ActionButton>Mon parcours</ActionButton> // a AJOUTER
-        </a> 
-
-      </Section>
+        <a href="/assets/CV_DUBOSC_Valentin_Educateur_Aquatique.pdf" target="_blank" rel="noopener noreferrer">
+          <Button>Mon parcours</Button>
+        </a>
+      </Inner>
     </SectionWrapper>
   );
 }

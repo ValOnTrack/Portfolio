@@ -2,8 +2,7 @@ import React, { useState,useEffect} from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 import NavButton from '../components/NavButton';
-import { FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
-import Monograme from '../assets/Images/monograme.png';
+import { FaLinkedin, FaBars, FaTimes,FaGithub } from 'react-icons/fa';
 import Modal from './Modal';
 import ContactOnglets from './ContactOnglets';
 import ConfirmationMessage from './ConfirmationMessage';
@@ -56,7 +55,7 @@ const StyledLink = styled(NavLink)`
   }
 `;
 
-const LinkedInLink = styled.a`
+const IconeLink = styled.a`
   display: flex;
   color: ${({ theme }) => theme.colors.primary};
   font-size: 2rem;
@@ -144,7 +143,7 @@ export default function Header() {
 )}
       <HeaderNav>
         <LogoWrapper>
-          <img src={Monograme} alt="Logo monogramme" style={{ height: '2rem' }} />
+          <img src='/assets/Images/monograme.png' alt="Logo monogramme" style={{ height: '2rem' }} />
           <Logo>Valentin DUBOSC</Logo>
         </LogoWrapper>
 
@@ -154,13 +153,20 @@ export default function Header() {
           <NavButton as="button" onClick={openModal}>
             Rencontrons nous
           </NavButton>
-          <LinkedInLink
+          <IconeLink
+            href="https://github.com/ValOnTrack"  // Remplace par ton vrai lien
+            target="_blank"
+            aria-label="GitHub profile"
+          >
+    <FaGithub />
+  </IconeLink>
+          <IconeLink
             href="https://www.linkedin.com/in/valentin-dubosc/"
             target="_blank"
             aria-label="LinkedIn profile"
           >
             <FaLinkedin />
-          </LinkedInLink>
+          </IconeLink>
         </Nav>
 
         <Burger onClick={() => setMenuOpen(!menuOpen)}>
@@ -176,13 +182,20 @@ export default function Header() {
           }}>
             Rencontrons nous
           </NavButton>
-          <LinkedInLink
+          <IconeLink
+            href="https://github.com/ValOnTrack"  // Remplace par ton vrai lien
+            target="_blank"
+            aria-label="GitHub profile"
+          >
+    <FaGithub />
+  </IconeLink>
+          <IconeLink
             href="https://www.linkedin.com/in/valentin-dubosc/"
             target="_blank"
             aria-label="LinkedIn profile"
           >
             <FaLinkedin />
-          </LinkedInLink>
+          </IconeLink>
         </MobileMenu>
       </HeaderNav>
     </>

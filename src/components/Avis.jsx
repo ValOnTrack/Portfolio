@@ -24,10 +24,6 @@ const Name = styled.p`
   color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
-const Audio = styled.audio`
-  width: 100%;
-  outline: none;
-`;
 
 export default function AvisCard({ name, avatar, audioSrc }) {
   return (
