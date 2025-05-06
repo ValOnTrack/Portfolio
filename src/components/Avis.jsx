@@ -10,7 +10,12 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 `;
+
 
 const Avatar = styled.img`
   width: 90px;
@@ -24,13 +29,19 @@ const Name = styled.p`
   color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
+const Audio = styled.audio`
+width: 100%;
+max-width: 100%;
+`;
+
 
 export default function AvisCard({ name, avatar, audioSrc }) {
   return (
     <Card>
       <Avatar src={avatar} alt={name} loading="lazy" />
       <Name>{name}</Name>
-      <audio controls src={audioSrc} preload="none" />
+      <Audio controls src={audioSrc} preload="none" />
+
     </Card>
   );
 }

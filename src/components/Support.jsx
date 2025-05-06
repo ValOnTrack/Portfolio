@@ -46,6 +46,7 @@ const Text = styled.p`
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%
 `;
 
 const CardsContainer = styled.div`
@@ -61,6 +62,7 @@ const CardsContainer = styled.div`
 
   @media (max-width: 770px) {
     grid-template-columns: 1fr;
+    max-width: 400px;
   }
 `;
 
