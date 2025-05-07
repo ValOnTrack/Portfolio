@@ -35,7 +35,6 @@ const ContentWrapper = styled.div`
 `;
 
 const Logo = styled.img`
-  
   width: 600px;
   height: auto;
 
@@ -83,11 +82,22 @@ const StaticText = styled.h1`
     font-size: 2.5rem;
   }
 `;
+const fade = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 
 const Highlight = styled.span`
   color: ${theme.colors.primary};
   font-size: 4rem;
   font-weight: 700;
+  animation: ${fade} 0.4s ease-in;
 
   @media (max-width: 1200px) {
     font-size: 2.5rem;
@@ -113,12 +123,16 @@ const ArrowContainer = styled.div`
 `;
 
 export default function DisplayedSection() {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const texts = ["Bonjour !", "01101000 01100101 01111001 !", "Hello ! ", "コニチワ ! "];
+  const roles = [  "Développeur Front-End", "Intégrateur web", "Interface développeur","Développeur Web"];
   const [displayedText, setDisplayedText] = useState('');
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
+  const [animatedRole, setAnimatedRole] = useState(roles[0]);
 
+  // Animation hello
   useEffect(() => {
     const currentText = texts[textIndex];
 
@@ -131,7 +145,7 @@ export default function DisplayedSection() {
     }
 
     if (!deleting && charIndex === currentText.length) {
-      const pause = setTimeout(() => setDeleting(true), 1800);
+      const pause = setTimeout(() => setDeleting(true), 1000);
       return () => clearTimeout(pause);
     }
 
@@ -149,6 +163,17 @@ export default function DisplayedSection() {
     }
   }, [charIndex, deleting, textIndex, texts]);
 
+  // Animation des rôles 
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      index = (index + 1) % roles.length;
+      setAnimatedRole(roles[index]);
+    }, 1500);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <ContentWrapper>
@@ -158,7 +183,8 @@ export default function DisplayedSection() {
             {displayedText}<Cursor>|</Cursor>
           </DynamicText>
           <StaticText>Je suis Valentin,</StaticText>
-          <Highlight>Intégrateur web</Highlight>
+          <Highlight key={animatedRole}>{animatedRole}</Highlight>
+
         </TextBlock>
       </ContentWrapper>
 

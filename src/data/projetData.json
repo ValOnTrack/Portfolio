@@ -68,9 +68,13 @@
     "image_en_avant": "/assets/Images/Portfolio/Booki/Desktop.webp",
     "categorie": "Developpement web",
     "slug": "Booki",
-    "recapitulatif": ["2024", "HTML/CSS","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Pour ce projet, nous avons créé le festival FAN ATTIC (« les fans du grenier ») qui se déroulera sur deux jours. Il y a la possibilité d’y participer en physique ou depuis chez soi, via le métaverse.\nCelui-ci aura pour thème : la pop culture des années 70 aux Etats-Unis. Les sujets abordés sont nombreux :Musique, Nourriture, Série, Jeux vidéo, Comic, Mode, Mode de vie.\nPour ce projet fictif, nous avons réalisé les étapes suivantes :\n– Etude de marché (analyse marché et concurrences indirectes et directes) \n– Mise en œuvre (activités, aménagement des espaces, marketing…) – Organisation (budget, juridique, ressources, gestion des risques…) \n– Evaluation (Key Performance Indicator)",
-    "competences": ["Planifier et coordonner l'ensemble d'un évènement", "Communiquer efficacement avec l'ensemble des participants", "Analyser le marché et la concurrence"],
+    "recapitulatif": ["2024", "HTML, CSS", "Créer la page d’accueil d’un site de voyage"],
+    "description": "Projet réalisé dans le cadre de ma formation d'intégrateur web, l’objectif du site est d’aider les utilisateurs à trouver des hébergements et des activités dans la ville de leur choix.\n\nLes missions incluaient :\n– Étude de la maquette et découpage des éléments\n– Intégration de l’interface en desktop first avec HTML et CSS\n– Création des différentes sections : header, filtres, hébergements, activités, footer\n– Mise en place du responsive design via media queries pour tablette et mobile.",
+    "competences": [
+      "Analyser une maquette et en effectuer le découpage",
+      "Intégrer une page web responsive en HTML et CSS",
+      "Utiliser les media queries pour adapter un site à plusieurs supports"
+    ],
     "images": [
       "/assets/Images/Portfolio/Booki/Desktop2.webp",
       "/assets/Images/Portfolio/Booki/Mobile.webp",
@@ -86,9 +90,13 @@
     "image_en_avant": "/assets/Images/Portfolio/Kasa/Desktop2.webp",
     "categorie": "Developpement web",
     "slug": "Kasa",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Éditeur de code en ligne avec React",
-    "competences": ["React", "Tailwind", "JS"],
+    "recapitulatif": ["2025", "React, JS", "Refonte d’une application web de location immobilière"],
+  "description": "Kasa souhaitait une refonte totale du site avec une stack complète JavaScript.\n\nMissions réalisées :\n– Création des différentes pages\n– Utilisation de composants réutilisables\n– Stylisation via styled-components\n– Gestion des erreurs et redirection",
+  "competences": [
+    "Créer une application web avec React",
+    "Gérer le routing avec React Router",
+    "Créer des composants réutilisables et dynamiques"
+    ],
     "images": [
       "/assets/Images/Portfolio/Kasa/Desktop.webp",
       "/assets/Images/Portfolio/Kasa/Desktop2.webp",
@@ -102,9 +110,13 @@
     "image_en_avant": "/assets/Images/Portfolio/Ohmyfood/desktop.webp",
     "categorie": "Developpement web",
     "slug": "Nina carducci",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Éditeur de code en ligne avec React",
-    "competences": ["React", "Tailwind", "JS"],
+    "recapitulatif": ["2024", "HTML, SASS, animations CSS", "Création d’un site mobile-first pour une start-up de restauration"],
+    "description": "Dans ce projet, j’ai conçu l’interface d’un site mobile avec des animations en CSS.\n\nLes missions comprenaient :\n– Découpage de la maquette et mise en place de l’environnement (Git, Sass)\n– Création de plusieurs pages avec animations CSS (accueil, restaurant)\n– Intégration en mobile-first avec responsive design (tablette et desktop)\n– Ajout d’effets visuels (hover, transitions, keyframes)\n\nCe projet a permis de renforcer mes compétences en animations CSS et en structuration d’un projet responsive.",
+    "competences": [
+      "Intégrer une interface en HTML et CSS",
+      "Créer des animations avec CSS (keyframes, transitions)",
+      "Structurer un projet avec Sass"
+    ],
     "hashtag": "#dev #react",
     "images": [
       "/assets/Images/Portfolio/Ohmyfood/Loader.webp",
@@ -121,9 +133,13 @@
     "image_en_avant": "/assets/Images/Portfolio/Nina_Carducci/nicholas-green.webp",
     "categorie": "Developpement web",
     "slug": "NinaCarducci",
-    "recapitulatif": ["2023", "Trello, Adobe, Matrice Eisenhower...","Imaginer et créer un festival (identité, organisation, marketing…)"],
-    "description": "Éditeur de code en ligne avec React",
-    "competences": ["React", "Tailwind", "JS"],
+    "recapitulatif": ["2025", "Lighthouse, Wave, SEO, HTML/CSS", "Optimisation d’un site one-page pour une photographe freelance"],
+    "description": "Dans ce projet, je devais optimiser le site web de la photographe Nina Carducci. L’objectif était d’améliorer ses performances, son accessibilité et son référencement local. Les actions réalisées incluent :\n– Audit technique via Lighthouse et Wave\n– Optimisation du code (sémantique HTML, minification, organisation)\n– Réduction et conversion des images (Webp, lazy loading)\n– Amélioration de l’accessibilité (aria-labels, contraste, alt)\n– Intégration de rich snippets, balises Open Graph et Twitter Card\n",
+    "competences": [
+    "Optimiser la performance d’un site web",
+    "Améliorer l’accessibilité d’une page HTML",
+    "Appliquer les bonnes pratiques SEO et HTML sémantique"
+  ],
     "hashtag": "#dev #react",
     "images": [
       "/assets/Images/Portfolio/Nina_Carducci/Rapport.webp",

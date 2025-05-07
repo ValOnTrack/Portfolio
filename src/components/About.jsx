@@ -183,7 +183,7 @@ export default function AboutSection() {
           </Quality>
         </Qualities>
 
-        <a href="/assets/CV_DUBOSC_Valentin_Educateur_Aquatique.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/assets/CV_DUBOSC_Valentin.pdf" target="_blank" rel="noopener noreferrer">
           <Button>Mon parcours</Button>
         </a>
       </Inner>
