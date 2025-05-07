@@ -172,7 +172,7 @@ export default function DisplayedSection() {
     }, 1500);
 
     return () => clearInterval(interval);
-  },);
+  }, []);
 
   return (
     <>
